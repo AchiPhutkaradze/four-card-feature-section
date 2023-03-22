@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    background: #FAFAFA;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 311px;
+    height: 161px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.166667px;
+    color: rgba(77, 79, 98, 1);
+
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.166667px;
+    color: #4D4F62;
+}
+
+.p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.104167px;
+    color: #4D4F62;
+    opacity: 0.5;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    padding: 60px;
+}
+
+h3 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4F62;
+    padding-left: 28px;
+    padding: 23px 0px 0px 28px;
+
+}
+
+.p1 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 13.4px;
+    line-height: 23px;
+    letter-spacing: 0.0902778px;
+    color: #4D4F62;
+    opacity: 0.5;
+    padding-left: 28px;
+
+}
+
+.card {
+    width: 311px;
+    height: 222px;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px;
+}
+
+#icon-supervision {
+    margin: 36px 0px 0px 229px;
+    width: 57px;
+}
+
+#icon-team {
+    margin: 36px 0px 0px 229px;
+    width: 57px;
+}
+
+#icon-karma {
+    margin: 36px 0px 0px 229px;
+    width: 57px;
+}
+
+#icon-calculator {
+    margin: 36px 0px 0px 229px;
+    width: 57px;
+}
+
+.color {
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    height: 3.35px;
+    border-radius: 8px;
+}
+
+.first {
+    background-color: #44D3D2;
+}
+
+.second {
+    background: #EA5454;
+}
+
+.third {
+    background: #FCAE4A;
+}
+
+.fourth {
+    background: #549EF2;
+}
+.desktop{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+@media screen and (min-width: 1440px) {
+    .desktop {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+
+    main {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header {
+        width: 540px;
+        height: 168px;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 54px;
+    }
+
+    h2 {
+        font-size: 36px;
+        line-height: 54px;
+        letter-spacing: 0.25px;
+
+    }
+
+    .card {
+        width: 350px;
+        height: 250px;
+    }
+
+    #icon-team {
+        margin: 50px 0px 0px 258px;
+    }
+    #icon-supervision{
+        margin: 50px 0px 0px 258px;
+    }
+    #icon-karma{
+        margin: 50px 0px 0px 258px;
+    }
+    #icon-calculator{
+        margin: 50px 0px 0px 258px;
+    }
+    h3{
+        padding: 32px 0px 0px 28px;
+
+    }
+    .color{
+        height:4px;
+    }
+    .p1{
+        font-size:13.8px;
+    }
+    
+}
